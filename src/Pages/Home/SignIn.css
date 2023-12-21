@@ -1,0 +1,5 @@
+.focused {
+  border-bottom: 4px solid orange; /* Set the desired color and thickness */
+  transition: border-bottom 0.3s ease; /* Set the desired transition duration and easing */
+  outline: none;
+}
