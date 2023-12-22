@@ -1,0 +1,10 @@
+.question-container {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(26, 28, 31, 0.16);
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    height: 100%;
+    margin: auto;
+    
+}

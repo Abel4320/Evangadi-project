@@ -1,0 +1,57 @@
+/* YourComponent.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #f8f4f4;
+    color: rgb(31, 31, 31);
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+.dropdown-content {
+    color: white;
+    position: fixed;
+    left: 1500px;
+    top: 60px;
+    /* Initial position off-screen to the left */
+    width: 100%;
+    background-color: rgb(255, 166, 0);
+    /* Changed the background color to orange */
+    transition: left 0.5s cubic-bezier(0.76, -0.21, 0.37, 1.33);
+    /* Smooth transition from the left side */
+}
+.dropdown-content.active {
+    left: 0;
+    /* Updated position after the click */
+}
+.dropdown-content a {
+    color:white;
+    text-decoration: none;
+    display: flex;
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover effect */
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+   .right-headers {
+       display: none;
+
+   }
+@media (min-width: 903px) {
+        .dropdown-content{
+            display: none;
+        }
+        .menu-icon{
+            display: none;
+        }
+                .right-headers {
+                    display: flex;
+        
+                }   
+}
